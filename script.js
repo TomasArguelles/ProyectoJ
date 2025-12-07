@@ -16,6 +16,12 @@ const screens = [
     text: "Texto de la tercera pantalla.",
     image: "imagenes/img3.png",
     pass: "clave3"
+  },
+  {
+    title: "Fin",
+    text: "Gracias por llegar hasta aquí.",
+    image: "imagenes/fin.png",
+    pass: null   // sin contraseña en el final
   }
 ];
 
