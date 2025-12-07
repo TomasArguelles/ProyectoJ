@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<title>Pantallas secuenciales</title>
+<style>
+  body { font-family: sans-serif; margin: 0; padding: 20px; }
+  #container { max-width: 600px; margin: auto; text-align: center; }
+  img { max-width: 100%; height: auto; margin-top: 20px; }
+  button { margin-top: 30px; padding: 10px 20px; font-size: 16px; }
+</style>
+</head>
+<body>
+
+<div id="container">
+  <h2 id="title"></h2>
+  <p id="text"></p>
+  <img id="image" src="" alt="">
+  <button id="nextBtn">Siguiente</button>
+</div>
+
+<script>
+  const screens = [
+    {
+      title: "Pantalla 1",
+      text: "Texto de la primera pantalla.",
+      image: "imagenes/img1.png"
+    },
+    {
+      title: "Pantalla 2",
+      text: "Texto de la segunda pantalla.",
+      image: "imagenes/img2.png"
+    },
+    {
+      title: "Pantalla 3",
+      text: "Texto de la tercera pantalla.",
+      image: "imagenes/img3.png"
+    }
+  ];
+
+  let index = 0;
+
+  function render() {
+    const s = screens[index];
+    document.getElementById("title").textContent = s.title;
+    document.getElementById("text").textContent = s.text;
+    document.getElementById("image").src = s.image;
+  }
+
+  document.getElementById("nextBtn").onclick = () => {
+    index = (index + 1) % screens.length;
+    render();
+  };
+
+  render();
+</script>
+
+</body>
+</html>
