@@ -94,3 +94,19 @@ button:active {
   75% { transform: translateX(-6px); }
   100% { transform: translateX(0); }
 }
+
+#hintBtn {
+  background: #c4b5ff;
+  margin-top: 15px;
+}
+
+#hintBtn:hover {
+  background: #b1a1ff;
+}
+
+#hintImg {
+  margin-top: 15px;
+  border-radius: 12px;
+  max-width: 80%;
+  box-shadow: 0 4px 12px rgba(120, 90, 160, 0.15);
+}
