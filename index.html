@@ -2,7 +2,7 @@
 <html lang="es">
 <head>
   <meta charset="UTF-8">
-  <title>Pantallas secuenciales</title>
+  <title>Jincana</title>
   <link rel="stylesheet" href="styles.css">
   <style>
     body { font-family: sans-serif; margin: 0; padding: 20px; }
@@ -17,43 +17,55 @@
   <h2 id="title"></h2>
   <p id="text"></p>
   <img id="image" src="" alt="">
-  <button id="nextBtn">Siguiente</button>
+  <input id="passInput" type="password" placeholder="Contraseña">
+  <button id="goBtn">Aceptar</button>
 </div>
 
 <script>
   const screens = [
-    {
-      title: "Pantalla 1",
-      text: "Texto de la primera pantalla.",
-      image: "imagenes/img1.png"
-    },
-    {
-      title: "Pantalla 2",
-      text: "Texto de la segunda pantalla.",
-      image: "imagenes/img2.png"
-    },
-    {
-      title: "Pantalla 3",
-      text: "Texto de la tercera pantalla.",
-      image: "imagenes/img3.png"
-    }
-  ];
-
-  let index = 0;
-
-  function render() {
-    const s = screens[index];
-    document.getElementById("title").textContent = s.title;
-    document.getElementById("text").textContent = s.text;
-    document.getElementById("image").src = s.image;
+  {
+    title: "Pantalla 1",
+    text: "Texto de la primera pantalla.",
+    image: "imagenes/img1.png",
+    pass: "clave1"
+  },
+  {
+    title: "Pantalla 2",
+    text: "Texto de la segunda pantalla.",
+    image: "imagenes/img2.png",
+    pass: "clave2"
+  },
+  {
+    title: "Pantalla 3",
+    text: "Texto de la tercera pantalla.",
+    image: "imagenes/img3.png",
+    pass: "clave3"
   }
+];
 
-  document.getElementById("nextBtn").onclick = () => {
-    index = (index + 1) % screens.length;
-    render();
-  };
+let index = 0;
 
-  render();
+function render() {
+  const s = screens[index];
+  document.getElementById("title").textContent = s.title;
+  document.getElementById("text").textContent = s.text;
+  document.getElementById("image").src = s.image;
+}
+
+document.getElementById("goBtn").onclick = () => {
+  const v = document.getElementById("passInput").value;
+  const needed = screens[index].pass;
+
+  if (v === needed) {
+    index++;
+    document.getElementById("passInput").value = "";
+    if (index < screens.length) {
+      render();
+    }
+  }
+};
+
+render();
 </script>
 
 </body>
