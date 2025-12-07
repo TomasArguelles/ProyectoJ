@@ -1,15 +1,9 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-  <meta charset="UTF-8">
-  <title>Jincana</title>
-  <link rel="stylesheet" href="styles.css">
-  <style>
-    body { font-family: sans-serif; margin: 0; padding: 20px; }
-    #container { max-width: 600px; margin: auto; text-align: center; }
-    img { max-width: 100%; height: auto; margin-top: 20px; }
-    button { margin-top: 30px; padding: 10px 20px; font-size: 16px; }
-  </style>
+<meta charset="UTF-8">
+<title>Pantallas</title>
+<link rel="stylesheet" href="styles.css">
 </head>
 <body>
 
@@ -17,56 +11,12 @@
   <h2 id="title"></h2>
   <p id="text"></p>
   <img id="image" src="" alt="">
+
   <input id="passInput" type="password" placeholder="Contraseña">
   <button id="goBtn">Aceptar</button>
+  <p id="errorMsg" class="hidden"></p>
 </div>
 
-<script>
-  const screens = [
-  {
-    title: "Pantalla 1",
-    text: "Texto de la primera pantalla.",
-    image: "imagenes/img1.png",
-    pass: "clave1"
-  },
-  {
-    title: "Pantalla 2",
-    text: "Texto de la segunda pantalla.",
-    image: "imagenes/img2.png",
-    pass: "clave2"
-  },
-  {
-    title: "Pantalla 3",
-    text: "Texto de la tercera pantalla.",
-    image: "imagenes/img3.png",
-    pass: "clave3"
-  }
-];
-
-let index = 0;
-
-function render() {
-  const s = screens[index];
-  document.getElementById("title").textContent = s.title;
-  document.getElementById("text").textContent = s.text;
-  document.getElementById("image").src = s.image;
-}
-
-document.getElementById("goBtn").onclick = () => {
-  const v = document.getElementById("passInput").value;
-  const needed = screens[index].pass;
-
-  if (v === needed) {
-    index++;
-    document.getElementById("passInput").value = "";
-    if (index < screens.length) {
-      render();
-    }
-  }
-};
-
-render();
-</script>
-
+<script src="script.js"></script>
 </body>
 </html>
