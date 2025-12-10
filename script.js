@@ -1,16 +1,16 @@
 const screens = [
   {
-    title: "Pantalla 1",
-    text: "Texto de la primera pantalla.",
-    image: "imagenes/img1.png",
-    pass: "clave1",
-    hint: "imagenes/hint1.png"
+    title: "La casa de las bestias",
+    text: "En la pequeña guarida de las bestias, las estrellas te mostrarán el camino",
+    image: "imagenes/pensando.webp",
+    pass: "cabañaDeLosPerros",
+    hint: "imagenes/hint1.webp"
   },
   {
-    title: "Pantalla 2",
-    text: "Texto de la segunda pantalla.",
-    image: "imagenes/img2.png",
-    pass: "clave2",
+    title: "Nectar de los dioses",
+    text: "Ambrosía, nectar y manjar, nada se puede hacer sin agitar",
+    image: "imagenes/Wiii.webp",
+    pass: "CocteleraDeSalón",
     hint: "imagenes/hint2.png"
   },
   {
@@ -22,7 +22,7 @@ const screens = [
   },
   {
     title: "Fin",
-    text: "Gracias por llegar hasta aquí.",
+    text: "Gracias por participar en la Jincana amorcito, espero que te haya gustado y no haya sido demasiado facil/dificil (dificil de saber pues estoy escribiendo este codigo con antelación xD)./n",
     image: "imagenes/fin.png",
     pass: null,
     hint: null
