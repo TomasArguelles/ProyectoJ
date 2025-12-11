@@ -14,10 +14,10 @@ const screens = [
     hint: "imagenes/hint2.png"
   },
   {
-    title: "Pantalla 3",
-    text: "Texto de la tercera pantalla.",
-    image: "imagenes/img3.png",
-    pass: "clave3",
+    title: "Las cartas están echadas",
+    text: "Has llegado hasta aquí sin apostar, pero a partir de ahora tus cartas debes jugar",
+    image: "imagenes/Woha.webp",
+    pass: "CasinoPortatil100",
     hint: "imagenes/hint3.png"
   },
   {
