@@ -29,10 +29,10 @@ const screens = [
   },
   {
     title: "Fin",
-    text: "Gracias por participar en la Jincana amorcito, espero que te haya gustado y no haya sido demasiado facil/dificil (dificil de saber pues estoy escribiendo este codigo con antelación xD). Esto es una pseudo-carta, una pseudo-recompensa, y viene con pseudo-besitos. Lo cierto es que esta pequeña carta ha sido escrita a lo largo de la quedada, al principio pensaba esconderlo todo en papel, pero acabé pasandolo a programa porque recordé que, hace tiempo, te había parecido muy chulo cuando un chico le había programado un regalo a su pareja en las redes, así que hice mi propia versión, si bien no será tan chula como me gustaría, solo espero que sea algo que te haga ilusión y te guste, porque no hay nada más bello en tí que la felicidad que muestras cuando te brillan los ojos y deslumbra tu sonrisa. Espero que esta quedada haya sido especial para ti, aal igual que lo ha sido para mi, y que aunque no hayamos podido ir al zoo esta vez, recuerdes que todos, y sobretodo yo (;3), te queremos mucho. Felicidades amorcito, te quiero, feliz cumpleaños. PD: Tus regalos se encuentran en la caseta de Nala",
+    text: "Gracias por participar en la Jincana amorcito, espero que te haya gustado y no haya sido demasiado facil/dificil (dificil de saber pues estoy escribiendo este codigo con antelación xD). Esto es una pseudo-carta, una pseudo-recompensa, y viene con pseudo-besitos. Lo cierto es que esta pequeña carta ha sido escrita a lo largo de la quedada, al principio pensaba esconderlo todo en papel, pero acabé pasandolo a programa porque recordé que, hace tiempo, te había parecido muy chulo cuando un chico le había programado un regalo a su pareja en las redes, así que hice mi propia versión, si bien no será tan chula como me gustaría, solo espero que sea algo que te haga ilusión y te guste, porque no hay nada más bello en tí que la felicidad que muestras cuando te brillan los ojos y deslumbra tu sonrisa. Espero que esta quedada haya sido especial para ti, aal igual que lo ha sido para mi, y que aunque no hayamos podido ir al zoo esta vez, recuerdes que todos, y sobretodo yo (;3), te queremos mucho. Felicidades amorcito, te quiero, feliz cumpleaños. PD: Tus regalos se encuentran en el lugar donde se encontraba el precursor de AM",
     image: "imagenes/fin.jpg",
     pass: null,
-    hint: null
+    hint: "imagenes/hint4.jpg"
   }
 ];
 
