@@ -18,14 +18,14 @@ const screens = [
     text: "Has llegado hasta aquí sin apostar, pero a partir de ahora tus cartas debes jugar",
     image: "imagenes/Woha.jpg",
     pass: "CasinoPortatil100",
-    hint: "imagenes/hint3.jpg"
+    hint: "imagenes/hint2.jpg"
   },
   {
     title: "Solo respuestas contundentes",
     text: "Cada problema requiere una solución, y cada solución una herramienta",
     image: "imagenes/Wishh.jpg",
     pass: "MartilloDeMadera!",
-    hint: "imagenes/hint4.jpg"
+    hint: "imagenes/hint3.jpg"
   },
   {
     title: "Fin",
