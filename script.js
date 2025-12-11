@@ -1,7 +1,7 @@
 const screens = [
   {
     title: "La casa de las bestias",
-    text: "En la pequeña guarida de las bestias, las estrellas te mostrarán el camino",
+    text: "Gracias por participar en la Jincana amorcito, espero que te haya gustado y no haya sido demasiado facil/dificil (dificil de saber pues estoy escribiendo este codigo con antelación xD)./n En la pequeña guarida de las bestias, las estrellas te mostrarán el camino",
     image: "imagenes/pensando.webp",
     pass: "cabañaDeLosPerros",
     hint: "imagenes/hint1.webp"
