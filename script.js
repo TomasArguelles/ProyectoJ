@@ -11,19 +11,26 @@ const screens = [
     text: "Ambrosía, nectar y manjar, nada se puede hacer sin agitar",
     image: "imagenes/Wiii.webp",
     pass: "CocteleraDeSalón",
-    hint: "imagenes/hint2.png"
+    hint: "imagenes/hint2.webp"
   },
   {
     title: "Las cartas están echadas",
     text: "Has llegado hasta aquí sin apostar, pero a partir de ahora tus cartas debes jugar",
     image: "imagenes/Woha.webp",
     pass: "CasinoPortatil100",
-    hint: "imagenes/hint3.png"
+    hint: "imagenes/hint3.webp"
+  },
+  {
+    title: "Solo respuestas contundentes",
+    text: "Cada problema requiere una solución, y cada solución una herramienta",
+    image: "imagenes/Wishh.webp",
+    pass: "MartilloDeMadera!",
+    hint: "imagenes/hint4.webp"
   },
   {
     title: "Fin",
     text: "Gracias por participar en la Jincana amorcito, espero que te haya gustado y no haya sido demasiado facil/dificil (dificil de saber pues estoy escribiendo este codigo con antelación xD)./n",
-    image: "imagenes/fin.png",
+    image: "imagenes/fin.webp",
     pass: null,
     hint: null
   }
