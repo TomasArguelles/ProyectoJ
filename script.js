@@ -2,7 +2,7 @@ const screens = [
   {
     title: "La casa de las bestias",
     text: "En la pequeña guarida de las bestias, las estrellas te mostrarán el camino",
-    image: "imagenes/pensando.jpg",
+    image: "imagenes/Pensando.jpg",
     pass: "cabañaDeLosPerros",
     hint: "imagenes/hint1.jpg"
   },
